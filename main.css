@@ -68,7 +68,7 @@ p {
 }
 
 i {
-  color: dimgray;
+  color: black;
   transition: all 0.5s ease-in-out;
 }
 
@@ -76,9 +76,6 @@ i:hover{
   transform: scale(1.5);
 }
 
-a {
-    font-size: 34px;
-}
 
 #foto1:hover{
   transform: scale(1.1);
@@ -113,7 +110,7 @@ a {
 @media (max-width: 800px) and (min-width: 500px) {
 
   .lead {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 
