@@ -1,0 +1,325 @@
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*=== ===*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-image: url(assets/concrete-wall.jpg);
+  display: flex;
+  color: black;
+}
+
+#main {
+  width: 22rem;
+  height: 28rem;
+}
+
+#card {
+  width: 90%;
+  height: 90%;
+  box-shadow: 20px 20px 80px 15px;
+  margin: 0 auto;
+  background-color: hsla(0, 0%, 100%, .4);
+}
+
+#foto1 {
+  width: 50%;
+  height: 50%;
+  float: left;
+  background: url(assets/foto1.jpeg) no-repeat center;
+  background-size: cover;
+  box-shadow: 10px 10px 20px ;
+  transition: all 0.5s ease-in-out;
+}
+
+#info {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+#contact {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+#foto2 {
+  width: 50%;
+  height: 50%;
+  float: left;
+  background: url(assets/foto2.jpeg) no-repeat center;
+  background-size: cover;
+  box-shadow: -5px -5px 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.txt {
+  font-family: 'Dancing Script', Timen New Roman, cursive;
+  font-size: 0.9rem;
+}
+
+.mail {
+  font-family: 'Kaushan Script', Arial, cursive;
+  font-size: 0.8rem;
+}
+
+p {
+  text-align: center;
+  margin-left: 4%;
+  margin-right: 4%;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  text-shadow: 10px 10px 20px;
+}
+
+
+i {
+  color: dimgray;
+  transition: all 0.5s ease-in-out;
+}
+
+i:hover {
+  transform: scale(1.5);
+}
+
+i {
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+i:hover {
+  transform: scale(1.4);
+  color: dimgray;
+}
+
+
+#foto1:hover {
+  transform: scale(1.1);
+}
+
+#foto2:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 1201px) {
+
+  #main {
+    width: 90rem;
+    height: 50rem;
+  }
+  
+  #card {
+    margin-top: 2.6rem;
+  }
+
+  .txt {
+    font-size: 2.2rem;
+  }
+
+  .mail {
+    font-size: 2.2rem
+  }
+}
+
+
+@media (max-width: 1200px) and (min-width: 1025px) {
+
+  #main {
+    width: 64rem;
+    height: 44rem;
+  }
+
+  #card {
+    margin-top: 2rem;
+  }
+
+  .txt {
+    font-size: 1.8rem;
+  }
+
+  .mail {
+    font-size: 1.8rem
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+
+  #main {
+    width: 64rem;
+    height: 25rem;
+  }
+
+  #card {
+    margin-top: 1rem;
+  }
+
+  .txt {
+    font-size: 1.3rem;
+  }
+
+  .mail {
+    font-size: 1.3rem
+  }
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+
+  #main {
+    width: 48rem;
+    height: 20rem;
+  }
+
+  #card {
+    margin-top: 1rem;
+  }
+
+  .txt {
+    font-size: 1rem;
+  }
+
+  .mail {
+    font-size: 1rem
+  }
+}
+
