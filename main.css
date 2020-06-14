@@ -151,7 +151,8 @@ body {
 
 #main {
   width: 22rem;
-  height: 28rem;
+  height: 34rem;
+  margin-top: 3rem;
 }
 
 #card {
@@ -163,9 +164,8 @@ body {
 }
 
 #foto1 {
-  width: 50%;
-  height: 50%;
-  float: left;
+  width: 100%;
+  height: 30%;
   background: url(assets/foto1.jpeg) no-repeat center;
   background-size: cover;
   box-shadow: 10px 10px 20px ;
@@ -173,21 +173,18 @@ body {
 }
 
 #info {
-  width: 50%;
-  height: 50%;
-  float: left;
+  width: 100%;
+  height: 20%;
 }
 
 #contact {
-  width: 50%;
-  height: 50%;
-  float: left;
+  width: 100%;
+  height: 20%;
 }
 
 #foto2 {
-  width: 50%;
-  height: 50%;
-  float: left;
+  width: 100%;
+  height: 30%;
   background: url(assets/foto2.jpeg) no-repeat center;
   background-size: cover;
   box-shadow: -5px -5px 20px;
@@ -196,12 +193,12 @@ body {
 
 .txt {
   font-family: 'Dancing Script', Timen New Roman, cursive;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .mail {
   font-family: 'Kaushan Script', Arial, cursive;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 p {
@@ -238,9 +235,33 @@ i:hover {
     width: 76rem;
     height: 38rem;
   }
-  
+
   #card {
     margin-top: 2.6rem;
+  }
+  
+    #foto1 {
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+
+  #info {
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+
+  #contact {
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+
+  #foto2 {
+    width: 50%;
+    height: 50%;
+    float: left;
   }
 
   .txt {
@@ -261,6 +282,30 @@ i:hover {
 
   #card {
     margin-top: 2rem;
+  }
+  
+    #foto1 {
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+
+  #info {
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+
+  #contact {
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+
+  #foto2 {
+    width: 50%;
+    height: 50%;
+    float: left;
   }
 
   .txt {
@@ -283,6 +328,30 @@ i:hover {
     margin-top: 1rem;
   }
 
+    #foto1 {
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+
+  #info {
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+
+  #contact {
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+
+  #foto2 {
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+  
   .txt {
     font-size: 1.3rem;
   }
@@ -299,8 +368,28 @@ i:hover {
     height: 20rem;
   }
 
-  #card {
-    margin-top: 1rem;
+  #foto1 {
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+
+  #info {
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+
+  #contact {
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+
+  #foto2 {
+    width: 50%;
+    height: 50%;
+    float: left;
   }
 
   .txt {
@@ -311,4 +400,3 @@ i:hover {
     font-size: 0.9rem
   }
 }
-
